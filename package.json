@@ -1,0 +1,25 @@
+{
+	"name": "whatsappbotjs",
+	"version": "1.0.0",
+	"description": "",
+	"exports": "./src/index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon"
+	},
+	"author": "Censoretti",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	},
+	"dependencies": {
+		"cpf-valid": "^1.0.1",
+		"libphonenumber-js": "^1.10.14",
+		"venom-bot": "^4.2.1"
+	},
+	"overrides": {
+		"venom-bot": {
+			"latest-version": "5.1.0"
+		}
+	}
+}
